@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.urbanisation_si.microservices_contrat_mongodb.dao.ContratRepository"/>
+    <fullyQualifiedTypeName name="com.urbanisation_si.microservices_contrat_mongodb.model.Contrat"/>
+    <fullyQualifiedTypeName name="org.springframework.data.mongodb.core.mapping.Document"/>
+    <fullyQualifiedTypeName name="org.springframework.data.mongodb.core.index.Indexed"/>
+    <fullyQualifiedTypeName name="org.springframework.data.mongodb.core.index.IndexDirection"/>
+    <fullyQualifiedTypeName name="org.springframework.data.mongodb.repository.MongoRepository"/>
+    <fullyQualifiedTypeName name="org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration"/>
+    <fullyQualifiedTypeName name="javax.validation.constraints.NotNull"/>
+    <fullyQualifiedTypeName name="org.springframework.data.mongodb.core.mapping.Field"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.DeleteMapping"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PutMapping"/>
+</qualifiedTypeNameHistroy>

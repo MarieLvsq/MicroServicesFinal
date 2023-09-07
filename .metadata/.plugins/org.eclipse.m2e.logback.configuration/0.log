@@ -1,0 +1,326 @@
+2023-09-07 12:25:55,530 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-09-07 12:27:12,653 [Worker-9: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.urbanisation-si:microservices_produit:0.0.1-SNAPSHOT @ C:\Users\Marie LEVESQUE\eclipse-workspace\JEE\TP Microservices\tpmicroservices_produit\pom.xml.
+2023-09-07 12:27:13,836 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-07 12:27:13,850 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-09-07 12:27:13,957 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-07 12:27:13,965 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-07 12:27:13,965 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marie LEVESQUE\eclipse-workspace\JEE\TP Microservices\tpmicroservices_produit\src\test\resources
+2023-09-07 12:27:15,038 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-07 12:27:15,039 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-09-07 12:27:15,042 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-07 12:27:15,047 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-07 12:27:15,047 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marie LEVESQUE\eclipse-workspace\JEE\TP Microservices\tpmicroservices_produit\src\test\resources
+2023-09-07 12:27:22,931 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-07 12:27:22,934 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-09-07 12:27:22,937 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-07 12:27:22,940 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-07 12:27:22,941 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marie LEVESQUE\eclipse-workspace\JEE\TP Microservices\tpmicroservices_produit\src\test\resources
+2023-09-07 12:27:26,433 [Worker-36: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.urbanisation-si:microservices_assure:0.0.1-SNAPSHOT @ C:\Users\Marie LEVESQUE\eclipse-workspace\JEE\TP Microservices\tpmicroservices_assure\pom.xml.
+2023-09-07 12:27:27,468 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-07 12:27:27,470 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-09-07 12:27:27,472 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-07 12:27:27,474 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-07 12:27:27,475 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marie LEVESQUE\eclipse-workspace\JEE\TP Microservices\tpmicroservices_assure\src\test\resources
+2023-09-07 12:27:27,861 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-07 12:27:27,861 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-09-07 12:27:27,863 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-07 12:27:27,865 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-07 12:27:27,865 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marie LEVESQUE\eclipse-workspace\JEE\TP Microservices\tpmicroservices_assure\src\test\resources
+2023-09-07 12:27:29,899 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-07 12:27:29,900 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-09-07 12:27:29,904 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-07 12:27:29,908 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-07 12:27:29,908 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marie LEVESQUE\eclipse-workspace\JEE\TP Microservices\tpmicroservices_assure\src\test\resources
+2023-09-07 12:27:58,744 [Worker-24: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.urbanisation-si:microservices_assure:0.0.1-SNAPSHOT @ C:\Users\Marie LEVESQUE\eclipse-workspace\JEE\TP Microservices\tpmicroservices_assure\pom.xml.
+2023-09-07 12:27:59,078 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-07 12:27:59,079 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-07 12:27:59,079 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-07 12:27:59,082 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-07 12:27:59,082 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marie LEVESQUE\eclipse-workspace\JEE\TP Microservices\tpmicroservices_assure\src\test\resources
+2023-09-07 12:28:01,533 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-07 12:28:01,534 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-09-07 12:28:01,536 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-07 12:28:01,542 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-07 12:28:01,542 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marie LEVESQUE\eclipse-workspace\JEE\TP Microservices\tpmicroservices_assure\src\test\resources
+2023-09-07 12:28:12,289 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-07 12:28:12,291 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-09-07 12:28:12,293 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-07 12:28:12,295 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-07 12:28:12,295 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marie LEVESQUE\eclipse-workspace\JEE\TP Microservices\tpmicroservices_assure\src\test\resources
+2023-09-07 12:28:23,751 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-07 12:28:23,751 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-09-07 12:28:23,753 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-07 12:28:23,755 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-07 12:28:23,756 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marie LEVESQUE\eclipse-workspace\JEE\TP Microservices\tpmicroservices_assure\src\test\resources
+2023-09-07 12:28:28,840 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-07 12:28:28,841 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-07 12:28:28,841 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-07 12:28:28,844 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-07 12:28:28,845 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marie LEVESQUE\eclipse-workspace\JEE\TP Microservices\tpmicroservices_assure\src\test\resources
+2023-09-07 12:28:28,955 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-07 12:28:28,956 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-07 12:28:28,956 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-07 12:28:28,958 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-07 12:28:28,958 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marie LEVESQUE\eclipse-workspace\JEE\TP Microservices\tpmicroservices_produit\src\test\resources
+2023-09-07 12:31:43,248 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-07 12:31:43,249 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-09-07 12:31:43,249 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-07 12:31:43,252 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-07 12:31:43,252 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marie LEVESQUE\eclipse-workspace\JEE\TP Microservices\tpmicroservices_produit\src\test\resources
+2023-09-07 12:32:56,140 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-07 12:32:56,140 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-09-07 12:32:56,141 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-07 12:32:56,143 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-07 12:32:56,143 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marie LEVESQUE\eclipse-workspace\JEE\TP Microservices\tpmicroservices_produit\src\test\resources
+2023-09-07 12:37:04,003 [Worker-15: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.urbanisation-si:microservices_assure:0.0.1-SNAPSHOT @ C:\Users\Marie LEVESQUE\eclipse-workspace\JEE\TP Microservices\tpmicroservices_contrat\pom.xml.
+2023-09-07 12:37:05,118 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-07 12:37:05,119 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-09-07 12:37:05,121 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-07 12:37:05,124 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-07 12:37:05,124 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marie LEVESQUE\eclipse-workspace\JEE\TP Microservices\tpmicroservices_contrat\src\test\resources
+2023-09-07 12:37:05,532 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-07 12:37:05,533 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-09-07 12:37:05,534 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-07 12:37:05,537 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-07 12:37:05,538 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marie LEVESQUE\eclipse-workspace\JEE\TP Microservices\tpmicroservices_contrat\src\test\resources
+2023-09-07 12:37:07,483 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-07 12:37:07,483 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-09-07 12:37:07,485 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-07 12:37:07,487 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-07 12:37:07,487 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marie LEVESQUE\eclipse-workspace\JEE\TP Microservices\tpmicroservices_contrat\src\test\resources
+2023-09-07 12:37:20,254 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-07 12:37:20,255 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-09-07 12:37:20,256 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-07 12:37:20,258 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-07 12:37:20,259 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marie LEVESQUE\eclipse-workspace\JEE\TP Microservices\tpmicroservices_contrat\src\test\resources
+2023-09-07 12:37:33,573 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-07 12:37:33,573 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-09-07 12:37:33,574 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-07 12:37:33,576 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-07 12:37:33,576 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marie LEVESQUE\eclipse-workspace\JEE\TP Microservices\tpmicroservices_contrat\src\test\resources
+2023-09-07 12:38:12,016 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-07 12:38:12,018 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-09-07 12:38:12,021 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-07 12:38:12,023 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-07 12:38:12,023 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marie LEVESQUE\eclipse-workspace\JEE\TP Microservices\tpmicroservices_contrat\src\test\resources
+2023-09-07 12:46:56,201 [Worker-7: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.urbanisation-si:microservices_contrat_mongodb:0.0.1-SNAPSHOT @ C:\Users\Marie LEVESQUE\eclipse-workspace\JEE\TP Microservices\tpmicroservices_contrat_mongodb\pom.xml.
+2023-09-07 12:46:57,285 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-07 12:46:57,286 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-09-07 12:46:57,288 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-07 12:46:57,291 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-07 12:46:57,291 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marie LEVESQUE\eclipse-workspace\JEE\TP Microservices\tpmicroservices_contrat_mongodb\src\test\resources
+2023-09-07 12:46:57,951 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-07 12:46:57,951 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-09-07 12:46:57,951 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-07 12:46:57,954 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-07 12:46:57,955 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marie LEVESQUE\eclipse-workspace\JEE\TP Microservices\tpmicroservices_contrat_mongodb\src\test\resources
+2023-09-07 12:46:59,384 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-07 12:46:59,386 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-09-07 12:46:59,388 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-07 12:46:59,390 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-07 12:46:59,390 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marie LEVESQUE\eclipse-workspace\JEE\TP Microservices\tpmicroservices_contrat_mongodb\src\test\resources
+2023-09-07 12:56:04,921 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-07 12:56:04,923 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-09-07 12:56:04,925 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-07 12:56:04,928 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-07 12:56:04,928 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marie LEVESQUE\eclipse-workspace\JEE\TP Microservices\tpmicroservices_contrat_mongodb\src\test\resources
+2023-09-07 12:56:20,034 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-07 12:56:20,035 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-09-07 12:56:20,038 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-07 12:56:20,041 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-07 12:56:20,042 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marie LEVESQUE\eclipse-workspace\JEE\TP Microservices\tpmicroservices_contrat_mongodb\src\test\resources
+2023-09-07 12:56:44,996 [Worker-48: Launching MicroservicesContratApplication (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-07 12:56:44,996 [Worker-48: Launching MicroservicesContratApplication (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-09-07 12:56:44,998 [Worker-48: Launching MicroservicesContratApplication (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-07 12:56:44,999 [Worker-48: Launching MicroservicesContratApplication (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-07 12:56:45,000 [Worker-48: Launching MicroservicesContratApplication (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marie LEVESQUE\eclipse-workspace\JEE\TP Microservices\tpmicroservices_contrat_mongodb\src\test\resources
+2023-09-07 12:59:03,536 [Worker-49: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-09-07 12:59:03,867 [Worker-49: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.urbanisation-si:microservices_contrat_mongodb:0.0.1-SNAPSHOT @ C:\Users\Marie LEVESQUE\eclipse-workspace\JEE\TP Microservices\tpmicroservices_contrat_mongodb\pom.xml.
+2023-09-07 12:59:04,856 [Worker-49: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /tpmicroservices_contrat_mongodb/src/main/java
+2023-09-07 12:59:04,856 [Worker-49: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /tpmicroservices_contrat_mongodb/src/main/resources
+2023-09-07 12:59:04,857 [Worker-49: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /tpmicroservices_contrat_mongodb/src/main/resources
+2023-09-07 12:59:04,857 [Worker-49: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /tpmicroservices_contrat_mongodb/src/test/java
+2023-09-07 12:59:06,404 [Worker-49: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-07 12:59:06,406 [Worker-49: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-09-07 12:59:06,409 [Worker-49: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-07 12:59:06,412 [Worker-49: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-07 12:59:06,412 [Worker-49: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marie LEVESQUE\eclipse-workspace\JEE\TP Microservices\tpmicroservices_contrat_mongodb\src\test\resources
+2023-09-07 12:59:06,946 [Worker-49: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 3 sec
+2023-09-07 12:59:07,395 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-07 12:59:07,396 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-09-07 12:59:07,397 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-07 12:59:07,400 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-07 12:59:07,401 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marie LEVESQUE\eclipse-workspace\JEE\TP Microservices\tpmicroservices_contrat_mongodb\src\test\resources
+2023-09-07 12:59:07,525 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2023-09-07 12:59:12,947 [Worker-52: Launching tpmicroservices_contrat_mongodb] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Marie LEVESQUE\eclipse-workspace\JEE\TP Microservices\tpmicroservices_contrat_mongodb
+2023-09-07 12:59:12,947 [Worker-52: Launching tpmicroservices_contrat_mongodb] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean install
+2023-09-07 12:59:44,127 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2023-09-07 12:59:49,512 [Worker-51: Launching tpmicroservices_contrat_mongodb (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Marie LEVESQUE\eclipse-workspace\JEE\TP Microservices\tpmicroservices_contrat_mongodb
+2023-09-07 12:59:49,513 [Worker-51: Launching tpmicroservices_contrat_mongodb (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean install
+2023-09-07 13:00:19,754 [Worker-57: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.urbanisation-si:microservices_contrat_mongodb:0.0.1-SNAPSHOT @ C:\Users\Marie LEVESQUE\eclipse-workspace\JEE\TP Microservices\tpmicroservices_contrat_mongodb\pom.xml.
+2023-09-07 13:00:20,025 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-07 13:00:20,026 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-07 13:00:20,026 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-07 13:00:20,030 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-07 13:00:20,030 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marie LEVESQUE\eclipse-workspace\JEE\TP Microservices\tpmicroservices_contrat_mongodb\src\test\resources
+2023-09-07 13:00:22,679 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-07 13:00:22,680 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-09-07 13:00:22,683 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-07 13:00:22,684 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-07 13:00:22,684 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marie LEVESQUE\eclipse-workspace\JEE\TP Microservices\tpmicroservices_contrat_mongodb\src\test\resources
+2023-09-07 13:00:23,768 [Worker-13: Launching tpmicroservices_contrat_mongodb] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Marie LEVESQUE\eclipse-workspace\JEE\TP Microservices\tpmicroservices_contrat_mongodb
+2023-09-07 13:00:23,768 [Worker-13: Launching tpmicroservices_contrat_mongodb] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean install
+2023-09-07 13:02:26,879 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-07 13:02:26,880 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-09-07 13:02:26,882 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-07 13:02:26,884 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-07 13:02:26,884 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marie LEVESQUE\eclipse-workspace\JEE\TP Microservices\tpmicroservices_contrat_mongodb\src\test\resources
+2023-09-07 13:02:33,722 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-07 13:02:33,723 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-09-07 13:02:33,724 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-07 13:02:33,726 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-07 13:02:33,726 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marie LEVESQUE\eclipse-workspace\JEE\TP Microservices\tpmicroservices_contrat_mongodb\src\test\resources
+2023-09-07 13:02:40,643 [Worker-44: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-09-07 13:02:40,950 [Worker-44: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.urbanisation-si:microservices_contrat_mongodb:0.0.1-SNAPSHOT @ C:\Users\Marie LEVESQUE\eclipse-workspace\JEE\TP Microservices\tpmicroservices_contrat_mongodb\pom.xml.
+2023-09-07 13:02:41,888 [Worker-44: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /tpmicroservices_contrat_mongodb/src/main/java
+2023-09-07 13:02:41,888 [Worker-44: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /tpmicroservices_contrat_mongodb/src/main/resources
+2023-09-07 13:02:41,889 [Worker-44: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /tpmicroservices_contrat_mongodb/src/main/resources
+2023-09-07 13:02:41,889 [Worker-44: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /tpmicroservices_contrat_mongodb/src/test/java
+2023-09-07 13:02:43,802 [Worker-44: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-07 13:02:43,803 [Worker-44: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-09-07 13:02:43,806 [Worker-44: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-07 13:02:43,808 [Worker-44: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-07 13:02:43,808 [Worker-44: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marie LEVESQUE\eclipse-workspace\JEE\TP Microservices\tpmicroservices_contrat_mongodb\src\test\resources
+2023-09-07 13:02:44,302 [Worker-44: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 3 sec
+2023-09-07 13:02:44,748 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-07 13:02:44,748 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-09-07 13:02:44,750 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-07 13:02:44,752 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-07 13:02:44,752 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marie LEVESQUE\eclipse-workspace\JEE\TP Microservices\tpmicroservices_contrat_mongodb\src\test\resources
+2023-09-07 13:02:49,608 [Worker-44: Launching tpmicroservices_contrat_mongodb] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Marie LEVESQUE\eclipse-workspace\JEE\TP Microservices\tpmicroservices_contrat_mongodb
+2023-09-07 13:02:49,609 [Worker-44: Launching tpmicroservices_contrat_mongodb] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean install
+2023-09-07 13:03:58,333 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-07 13:03:58,333 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-09-07 13:03:58,333 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-07 13:03:58,337 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-07 13:03:58,338 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marie LEVESQUE\eclipse-workspace\JEE\TP Microservices\tpmicroservices_contrat_mongodb\src\test\resources
+2023-09-07 13:03:59,444 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-07 13:03:59,445 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-09-07 13:03:59,447 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-07 13:03:59,448 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-07 13:03:59,448 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marie LEVESQUE\eclipse-workspace\JEE\TP Microservices\tpmicroservices_contrat_mongodb\src\test\resources
+2023-09-07 13:04:05,789 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-07 13:04:05,790 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-09-07 13:04:05,791 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-07 13:04:05,793 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-07 13:04:05,793 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marie LEVESQUE\eclipse-workspace\JEE\TP Microservices\tpmicroservices_contrat_mongodb\src\test\resources
+2023-09-07 13:04:10,918 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-07 13:04:10,951 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-09-07 13:04:10,954 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-07 13:04:10,956 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-07 13:04:10,956 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marie LEVESQUE\eclipse-workspace\JEE\TP Microservices\tpmicroservices_contrat_mongodb\src\test\resources
+2023-09-07 13:04:49,440 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-07 13:04:49,473 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-09-07 13:04:49,475 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-07 13:04:49,478 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-07 13:04:49,478 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marie LEVESQUE\eclipse-workspace\JEE\TP Microservices\tpmicroservices_contrat_mongodb\src\test\resources
+2023-09-07 13:04:51,705 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-07 13:04:51,707 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-09-07 13:04:51,710 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-07 13:04:51,712 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-07 13:04:51,712 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marie LEVESQUE\eclipse-workspace\JEE\TP Microservices\tpmicroservices_contrat_mongodb\src\test\resources
+2023-09-07 13:05:32,797 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-07 13:05:32,797 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-09-07 13:05:32,800 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-07 13:05:32,802 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-07 13:05:32,802 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marie LEVESQUE\eclipse-workspace\JEE\TP Microservices\tpmicroservices_contrat_mongodb\src\test\resources
+2023-09-07 13:05:37,940 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-07 13:05:37,941 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-09-07 13:05:37,943 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-07 13:05:37,945 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-07 13:05:37,945 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marie LEVESQUE\eclipse-workspace\JEE\TP Microservices\tpmicroservices_contrat_mongodb\src\test\resources
+2023-09-07 13:05:54,458 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-07 13:05:54,459 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-09-07 13:05:54,461 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-07 13:05:54,463 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-07 13:05:54,463 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marie LEVESQUE\eclipse-workspace\JEE\TP Microservices\tpmicroservices_contrat_mongodb\src\test\resources
+2023-09-07 13:06:00,611 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-07 13:06:00,663 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-09-07 13:06:00,665 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-07 13:06:00,667 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-07 13:06:00,667 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marie LEVESQUE\eclipse-workspace\JEE\TP Microservices\tpmicroservices_contrat_mongodb\src\test\resources
+2023-09-07 13:06:02,850 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-07 13:06:02,851 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-09-07 13:06:02,853 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-07 13:06:02,856 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-07 13:06:02,856 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marie LEVESQUE\eclipse-workspace\JEE\TP Microservices\tpmicroservices_contrat_mongodb\src\test\resources
+2023-09-07 13:06:10,917 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-07 13:06:10,919 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-09-07 13:06:10,921 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-07 13:06:10,922 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-07 13:06:10,922 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marie LEVESQUE\eclipse-workspace\JEE\TP Microservices\tpmicroservices_contrat_mongodb\src\test\resources
+2023-09-07 13:06:37,523 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-07 13:06:37,525 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-09-07 13:06:37,527 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-07 13:06:37,530 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-07 13:06:37,530 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marie LEVESQUE\eclipse-workspace\JEE\TP Microservices\tpmicroservices_contrat_mongodb\src\test\resources
+2023-09-07 14:28:36,476 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-07 14:28:36,478 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-09-07 14:28:36,479 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-07 14:28:36,481 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-07 14:28:36,481 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marie LEVESQUE\eclipse-workspace\JEE\TP Microservices\tpmicroservices_contrat_mongodb\src\test\resources
+2023-09-07 14:46:25,222 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-07 14:46:25,222 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-09-07 14:46:25,223 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-07 14:46:25,224 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-07 14:46:25,224 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marie LEVESQUE\eclipse-workspace\JEE\TP Microservices\tpmicroservices_contrat_mongodb\src\test\resources
+2023-09-07 14:47:07,364 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-07 14:47:07,364 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-09-07 14:47:07,365 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-07 14:47:07,366 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-07 14:47:07,366 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marie LEVESQUE\eclipse-workspace\JEE\TP Microservices\tpmicroservices_contrat_mongodb\src\test\resources
+2023-09-07 14:55:20,058 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-07 14:55:20,059 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-09-07 14:55:20,060 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-07 14:55:20,063 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-07 14:55:20,063 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marie LEVESQUE\eclipse-workspace\JEE\TP Microservices\tpmicroservices_contrat_mongodb\src\test\resources
+2023-09-07 14:55:25,343 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-07 14:55:25,343 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-09-07 14:55:25,344 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-07 14:55:25,346 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-07 14:55:25,346 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marie LEVESQUE\eclipse-workspace\JEE\TP Microservices\tpmicroservices_contrat_mongodb\src\test\resources
+2023-09-07 14:55:43,226 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-07 14:55:43,226 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-09-07 14:55:43,227 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-07 14:55:43,228 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-07 14:55:43,228 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marie LEVESQUE\eclipse-workspace\JEE\TP Microservices\tpmicroservices_contrat_mongodb\src\test\resources
+2023-09-07 14:56:03,645 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-07 14:56:03,647 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-09-07 14:56:03,648 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-07 14:56:03,649 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-07 14:56:03,650 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marie LEVESQUE\eclipse-workspace\JEE\TP Microservices\tpmicroservices_contrat_mongodb\src\test\resources
+2023-09-07 15:07:38,939 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-07 15:07:38,939 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-09-07 15:07:38,940 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-07 15:07:38,942 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-07 15:07:38,942 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marie LEVESQUE\eclipse-workspace\JEE\TP Microservices\tpmicroservices_contrat_mongodb\src\test\resources
+2023-09-07 15:08:05,382 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-07 15:08:05,382 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-09-07 15:08:05,383 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-07 15:08:05,383 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-07 15:08:05,383 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marie LEVESQUE\eclipse-workspace\JEE\TP Microservices\tpmicroservices_contrat_mongodb\src\test\resources
+2023-09-07 15:14:40,658 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-07 15:14:40,659 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-09-07 15:14:40,661 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-07 15:14:40,662 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-07 15:14:40,662 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marie LEVESQUE\eclipse-workspace\JEE\TP Microservices\tpmicroservices_contrat_mongodb\src\test\resources
+2023-09-07 15:15:06,156 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-07 15:15:06,157 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-09-07 15:15:06,158 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-07 15:15:06,159 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-07 15:15:06,159 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marie LEVESQUE\eclipse-workspace\JEE\TP Microservices\tpmicroservices_contrat_mongodb\src\test\resources
+2023-09-07 15:15:13,063 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-07 15:15:13,064 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-09-07 15:15:13,065 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-07 15:15:13,067 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-07 15:15:13,067 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marie LEVESQUE\eclipse-workspace\JEE\TP Microservices\tpmicroservices_contrat_mongodb\src\test\resources
