@@ -7,6 +7,8 @@
 		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Users\Marie LEVESQUE\eclipse-workspace\JEE\TP Microservices\microservices_assure"/>
+			<item value="C:\Users\Marie LEVESQUE\eclipse-workspace\JEE\TP Microservices\orchestrateur"/>
 			<item value="C:\Users\Marie LEVESQUE\eclipse-workspace\JEE\TP Microservices\tpmicroservices_contrat_mongodb"/>
 			<item value="C:\Users\Marie LEVESQUE\eclipse-workspace\JEE\TP Microservices\tpmicroservices_contrat"/>
 			<item value="C:\Users\Marie LEVESQUE\eclipse-workspace\JEE\TP Microservices\tpmicroservices_assure"/>

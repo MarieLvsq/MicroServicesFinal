@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
@@ -31,19 +32,40 @@ public class ContratController {
 	@Autowired
 	private ContratRepository contratRepository;
 
-	@ApiOperation(value = "Ajoute un Contrat.")
-	@PostMapping(path = "/ajouterContrat")
-	public ResponseEntity<Void> creerContrat(@Valid @RequestBody Contrat contrat) {
-		Contrat contratAjoute = contratRepository.save(contrat);
+//	@ApiOperation(value = "Ajoute un Contrat.")
+//	@PostMapping(path = "/ajouterContrat")
+//	public ResponseEntity<Void> creerContrat(@Valid @RequestBody Contrat contrat) {
+//		Contrat contratAjoute = contratRepository.save(contrat);
+//
+//		if (contratAjoute == null)
+//			return ResponseEntity.noContent().build();
+//
+//		URI uri = ServletUriComponentsBuilder.fromCurrentRequest().path("/{id}")
+//				.buildAndExpand(contratAjoute.getContratId()).toUri();
+//
+//		return ResponseEntity.created(uri).build();
+//	}
 
-		if (contratAjoute == null)
-			return ResponseEntity.noContent().build();
+	 @ApiOperation(value = "Ajoute un Contrat.")
+	    @GetMapping(path = "/ajouterContrat")
+	    public ResponseEntity<Void> creerContrat(@RequestParam Long numeroAssure) {
+	        // Create a new Contrat instance and set the necessary data
+	        Contrat contrat = new Contrat();
+	        contrat.setNumeroAssure(numeroAssure);
 
-		URI uri = ServletUriComponentsBuilder.fromCurrentRequest().path("/{id}")
-				.buildAndExpand(contratAjoute.getContratId()).toUri();
+	        // Save the contract
+	        Contrat contratAjoute = contratRepository.save(contrat);
 
-		return ResponseEntity.created(uri).build();
-	}
+	        if (contratAjoute == null) {
+	            return ResponseEntity.noContent().build();
+	        }
+
+	        // Respond with a URI to the newly created contract
+	        URI uri = ServletUriComponentsBuilder.fromCurrentRequest().path("/{id}")
+	                .buildAndExpand(contratAjoute.getContratId()).toUri();
+
+	        return ResponseEntity.created(uri).build();
+	    }
 
 	@ApiOperation(value = "Affiche la liste des contrats.")
 	@GetMapping(path = "/listerContrats")

@@ -10,30 +10,70 @@
 	<div class="container">
 		<h1>ClairPrev Prévoyance - Rechercher un assuré</h1>
 
-				<div class="row">
-					<table class="table">
-						<thead>
-							<tr>
-								<th th:text="Prenom"></th>
-								<th th:text="Nom"></th>
-								<th th:text="NumeroAssure"></th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr th:each="assure : ${assures}" class="col-md-4 my-1">
-								<td th:text="${assure.prenom}"></td>
-								<td th:text="${assure.nom}"></td>
-								<td th:text="${assure.numeroAssure}"></td>
-								<td><a
-									th:href="@{|/Assure/numeroAssure/${assure.numeroAssure}|}"
-									th:text="${assure.numeroAssure}"> </a></td>
-							</tr>
-						</tbody>
-					</table>
-				</div>
+		<div class="row">
+			<table class="table">
+				<thead>
+					<tr>
+						<th th:text="Prenom"></th>
+						<th th:text="Nom"></th>
+						<th th:text="NumeroAssure"></th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr th:each="assure : ${assures}" class="col-md-4 my-1">
+						<td th:text="${assure.prenom}"></td>
+						<td th:text="${assure.nom}"></td>
+						<td th:text="${assure.numeroAssure}"></td>
+						<td><a th:href="@{|/ajouterContrat/${assure.numeroAssure}|}"
+							th:text="${assure.numeroAssure}"
+							onclick="creerContrat('${assure.numeroAssure}'); return false;"
+							data-numero-assure="${assure.numeroAssure}"> </a></td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
 	</div>
+
 
 	<script type="text/javascript"
 		src="webjars/bootstrap/4.0.0-2/js/bootstrap.min.js"></script>
+	<script>
+    function creerContrat(event) {
+        console.log('creerContrat function executed');
+
+        // Retrieve the numeroAssure value from the data attribute
+        const linkElement = event.currentTarget;
+        const numeroAssure = linkElement.getAttribute('data-numero-assure');
+        console.log('numeroAssure:', numeroAssure);
+
+        // Create an object to send with the POST request
+        const contractData = {
+            numeroAssure: numeroAssure
+            // Add other contract data as needed
+        };
+
+        console.log('contractData:', contractData);
+
+        fetch(`/ajouterContrat/${numeroAssure}`, {
+            method: 'GET',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(contractData)
+        })
+        .then(response => {
+            if (response.ok) {
+                // Contract created successfully, redirect to a confirmation page or another URL
+                window.location.href = `/ajouterContrat/${numeroAssure}`;
+            } else {
+                // Handle errors, if any
+            }
+        })
+        .catch(error => {
+            // Handle network or other errors
+        });
+    }
+</script>
+
 </body>
 </html>
