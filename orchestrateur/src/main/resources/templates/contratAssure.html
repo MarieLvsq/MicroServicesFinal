@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8" />
+<title>Contract Details</title>
+<link rel="stylesheet" type="text/css"
+	href="webjars/bootstrap/4.0.0-2/css/bootstrap.min.css" />
+</head>
+<body>
+	<div class="container">
+		<h1>Contract Details</h1>
+		<p>
+			Numero Assure: <span th:text="${numeroAssure}"></span>
+		</p>
+	</div>
+	<div>
+		<div class="row">
+			<table class="table">
+				<thead>
+					<tr>
+						<th colspan="2">Nos Produits</th>
+					</tr>
+					<tr>
+						<th th:text="'Numero de Produit'"></th>
+						<th th:text="Libelle"></th>
+
+					</tr>
+				</thead>
+				<tbody>
+					<tr th:each="produit : ${produits}" class="col-md-4 my-1">
+						<td th:text="${produit.libelle}"></td>
+						<td><a
+							th:href="@{|/affecterNumeroProduit/${numeroAssure}/${produit.numeroProduit}|}"
+							th:text="${produit.numeroProduit}"
+							onclick="affecterNumeroProduit('${numeroAssure}', '${produit.numeroProduit}'); return false;">
+						</a></td>
+
+					</tr>
+				</tbody>
+			</table>
+
+		</div>
+	</div>
+	<script type="text/javascript"
+		src="webjars/bootstrap/4.0.0-2/js/bootstrap.min.js"></script>
+</body>
+</html>
