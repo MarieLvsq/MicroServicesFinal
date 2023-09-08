@@ -18,11 +18,11 @@
    <libraries>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-spring-webmvc-5.2.8.RELEASE.jar/meta-inf/spring-form.tld" project="tpmicroservices_produit"/>
+      path="FileSystems/lib-spring-webmvc-5.2.8.RELEASE.jar/meta-inf/spring-form.tld" project="tpmicroservices_assure"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-spring-webmvc-5.2.8.RELEASE.jar/meta-inf/spring.tld" project="tpmicroservices_produit"/>
+      path="FileSystems/lib-spring-webmvc-5.2.8.RELEASE.jar/meta-inf/spring.tld" project="tpmicroservices_assure"/>
     </library>
    </libraries>
   </path>
@@ -149,7 +149,6 @@
   <path value="C:/Users/Marie LEVESQUE/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar"/>
  </paths>
  <validation>
-  <core validator-id="jboss.cdi.core"/>
   <el>
    <linked-el length="23" name="%0" offset="2744" path="%1"/>
    <linked-el length="23" name="%2" offset="2744" path="%1"/>

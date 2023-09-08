@@ -2,7 +2,6 @@ package com.urbanisation_si.microservices_contrat_mongodb.model;
 
 import java.time.LocalDate;
 
-import javax.persistence.Id;
 import javax.validation.constraints.NotNull;
 
 import org.springframework.data.mongodb.core.index.IndexDirection;
