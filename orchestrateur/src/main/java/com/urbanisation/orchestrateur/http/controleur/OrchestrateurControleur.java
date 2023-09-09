@@ -13,6 +13,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.urbanisation.orchestrateur.DTO.AssureDTO;
@@ -69,16 +70,20 @@ public class OrchestrateurControleur {
 		// Use the ContratProxy to make a POST request to the external service
 		ResponseEntity<Void> response = contratProxy.creerContrat(numeroAssure);
 
-		if (response.getStatusCode() == HttpStatus.CREATED) {
-			// Contract created successfully
-			// Handle the response or redirect as needed
-		} else {
-			// Handle errors, if any
-		}
 		Iterable<ProduitDTO> produits = produitProxy.getAllProduits();
 		m.addAttribute("numeroAssure", numeroAssure);
 		m.addAttribute("produits", produits);
 		return "contratAssure";
+	}
+
+	@GetMapping(value = "/affecterNumeroProduit/{numeroAssure}/{numeroProduit}")
+	public String affecterNumeroProduit(@PathVariable Long numeroAssure, @PathVariable Long numeroProduit, Model m) {
+		// Use the ContratProxy to make a request to assign the product to the existing
+		// contract
+		ResponseEntity<Void> response = contratProxy.affecterNumeroProduit(numeroAssure, numeroProduit);
+		m.addAttribute("numeroAssure", numeroAssure);
+		m.addAttribute("numeroProduit", numeroProduit);
+		return "contratProduit";
 	}
 
 }
