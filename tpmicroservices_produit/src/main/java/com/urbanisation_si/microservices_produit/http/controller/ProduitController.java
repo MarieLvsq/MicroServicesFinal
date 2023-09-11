@@ -30,43 +30,34 @@ public class ProduitController {
 
 	@Autowired
 	private ProduitRepository produitRepository;
-	
+
 	@Autowired
 	ApplicationPropertiesConfiguration appProperties;
 
-	 @ApiOperation(value = "Ajoute un Produit.")    
-	    @PostMapping(path="/ajouterProduit")
-	    public ResponseEntity<Void> creerAssure(@Valid @RequestBody Produit produit) {
-	        Produit produitAjoute = produitRepository.save(produit);
+	@ApiOperation(value = "Ajoute un Produit.")
+	@PostMapping(path = "/ajouterProduit")
+	public ResponseEntity<Void> creerAssure(@Valid @RequestBody Produit produit) {
+		Produit produitAjoute = produitRepository.save(produit);
 
-	             if (produitAjoute == null)
-	                        return ResponseEntity.noContent().build();
+		if (produitAjoute == null)
+			return ResponseEntity.noContent().build();
 
-	                URI uri = ServletUriComponentsBuilder
-	                        .fromCurrentRequest()
-	                        .path("/{id}")
-	                        .buildAndExpand(produitAjoute.getId())
-	                        .toUri();
+		URI uri = ServletUriComponentsBuilder.fromCurrentRequest().path("/{id}").buildAndExpand(produitAjoute.getId())
+				.toUri();
 
-	                return ResponseEntity.created(uri).build(); 
-	    }
-	 
-	 @ApiOperation(value = "Affiche la liste des produits.")    
-	    @GetMapping(path="/listerProduits")  
-	    public @ResponseBody Iterable<Produit> getAllProduits() {
-	        return produitRepository.findAll();
-	    }
-	 
-	 @ApiOperation(value = "Affiche la liste des Assurés.")
-		@GetMapping(path = "/listerLesProduits")
-		public @ResponseBody Iterable<Produit> allProduits() {
-			Iterable<Produit> produitsIterable = produitRepository.findAll();
-			List<Produit> assuresList = StreamSupport.stream(produitsIterable.spliterator(), false)
-					.collect(Collectors.toList());
-			List<Produit> listeLimitee = assuresList.subList(0, appProperties.getLimiteNombreProduit());
-			return listeLimitee;
-		}
-	 
+		return ResponseEntity.created(uri).build();
+	}
+
+	@ApiOperation(value = "Affiche la liste des produits.")
+	@GetMapping(path = "/listerProduits")
+	public @ResponseBody Iterable<Produit> getAllProduits() {
+		Iterable<Produit> produitsIterable = produitRepository.findAll();
+		List<Produit> assuresList = StreamSupport.stream(produitsIterable.spliterator(), false)
+				.collect(Collectors.toList());
+		List<Produit> listeLimitee = assuresList.subList(0, appProperties.getLimiteNombreProduit());
+		return listeLimitee;
+	}
+
 	@GetMapping(path = "/chercherProduit/{numeroProduit}")
 	public ResponseEntity<Produit> findProduitByNum(@PathVariable Long numeroProduit) {
 		Produit produit = produitRepository.findByNumeroProduit(numeroProduit);

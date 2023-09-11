@@ -1,6 +1,9 @@
 package com.urbanisation_si.microservices_contrat_mongodb.http.controller;
 
 import java.net.URI;
+import java.util.List;
+import java.util.stream.Collectors;
+import java.util.stream.StreamSupport;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -17,6 +20,7 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
 import com.urbanisation_si.exceptions.ResourceNotFoundException;
+import com.urbanisation_si.microservices_contrat_mongodb.configuration.ApplicationPropertiesConfiguration;
 import com.urbanisation_si.microservices_contrat_mongodb.dao.ContratRepository;
 import com.urbanisation_si.microservices_contrat_mongodb.model.Contrat;
 
@@ -29,6 +33,9 @@ public class ContratController {
 	@Autowired
 	private ContratRepository contratRepository;
 
+	@Autowired
+	private ApplicationPropertiesConfiguration appProperties;
+	
 //	@ApiOperation(value = "Ajoute un Contrat.")
 //	@PostMapping(path = "/ajouterContrat")
 //	public ResponseEntity<Void> creerContrat(@Valid @RequestBody Contrat contrat) {
@@ -84,7 +91,11 @@ public class ContratController {
 	@ApiOperation(value = "Affiche la liste des contrats.")
 	@GetMapping(path = "/listerContrats")
 	public @ResponseBody Iterable<Contrat> getAllContrats() {
-		return contratRepository.findAll();
+		Iterable<Contrat> contratsIterable = contratRepository.findAll();
+		List<Contrat> contratsList = StreamSupport.stream(contratsIterable.spliterator(), false)
+				.collect(Collectors.toList());
+		List<Contrat> listeLimitee = contratsList.subList(0, appProperties.getlimiteNombreContrat());
+		return listeLimitee;
 	}
 
 	@ApiOperation(value = "Trouve un contrat par numéro de contrat.")
