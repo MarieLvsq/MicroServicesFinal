@@ -32,9 +32,8 @@
 						<td><a
 							th:href="@{|/affecterNumeroProduit/${numeroAssure}/${produit.numeroProduit}|}"
 							th:text="${produit.numeroProduit}"
-							onclick="affecterNumeroProduit('${numeroAssure}', '${produit.numeroProduit}'); return false;">
-						</a></td>
-
+							th:attr="data-numero-assure=${numeroAssure}"
+							onclick="affecterNumeroProduit(this); return false;"> </a></td>
 					</tr>
 				</tbody>
 			</table>
@@ -43,5 +42,50 @@
 	</div>
 	<script type="text/javascript"
 		src="webjars/bootstrap/4.0.0-2/js/bootstrap.min.js"></script>
+	<script>
+	function affecterNumeroProduit(linkElement) {
+	    console.log('affecterNumeroProduit function executed');
+
+	    // Retrieve the numeroAssure value from the data attribute
+	    const numeroAssure = linkElement.getAttribute('data-numero-assure');
+	    console.log('numeroAssure:', numeroAssure);
+
+	    // Retrieve the numeroProduit value from the link text
+	    const numeroProduit = linkElement.innerText;
+	    console.log('numeroProduit:', numeroProduit);
+
+	    // Construct the URL with proper interpolation
+	    const url = `/affecterNumeroProduit/${numeroAssure}/${numeroProduit}`;
+	    console.log('URL:', url);
+
+	    // Create an object to send with the GET request (if needed)
+	    const contractData = {
+	            numeroAssure: numeroAssure,
+        numeroProduit: numeroProduit
+	    };
+
+	    console.log('contractData:', contractData);
+
+	    fetch(url, {
+	        method: 'GET',
+	        headers: {
+	            'Content-Type': 'application/json'
+	        },
+// 	        body: JSON.stringify(contractData) // You can add a body if needed
+	    })
+	    .then(response => {
+	        if (response.ok) {
+	            // Contract updated successfully, redirect to a confirmation page or another URL
+	            window.location.href = `/affecterNumeroProduit/${numeroAssure}/${numeroProduit}`; // Redirect to the same URL
+	        } else {
+	            // Handle errors, if any
+	        }
+	    })
+	    .catch(error => {
+	        // Handle network or other errors
+	    });
+	}
+</script>
+
 </body>
 </html>

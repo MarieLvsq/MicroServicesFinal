@@ -2,8 +2,6 @@ package com.urbanisation_si.microservices_contrat_mongodb.http.controller;
 
 import java.net.URI;
 
-import javax.validation.Valid;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -46,26 +44,43 @@ public class ContratController {
 //		return ResponseEntity.created(uri).build();
 //	}
 
-	 @ApiOperation(value = "Ajoute un Contrat.")
-	    @GetMapping(path = "/ajouterContrat")
-	    public ResponseEntity<Void> creerContrat(@RequestParam Long numeroAssure) {
-	        // Create a new Contrat instance and set the necessary data
-	        Contrat contrat = new Contrat();
-	        contrat.setNumeroAssure(numeroAssure);
+	@ApiOperation(value = "Ajoute un Contrat.")
+	@GetMapping(path = "/ajouterContrat")
+	public ResponseEntity<Void> creerContrat(@RequestParam Long numeroAssure) {
+		// Create a new Contrat instance and set the necessary data
+		Contrat contrat = new Contrat();
+		contrat.setNumeroAssure(numeroAssure);
 
-	        // Save the contract
-	        Contrat contratAjoute = contratRepository.save(contrat);
+		// Save the contract
+		Contrat contratAjoute = contratRepository.save(contrat);
 
-	        if (contratAjoute == null) {
-	            return ResponseEntity.noContent().build();
-	        }
+		if (contratAjoute == null) {
+			return ResponseEntity.noContent().build();
+		}
 
-	        // Respond with a URI to the newly created contract
-	        URI uri = ServletUriComponentsBuilder.fromCurrentRequest().path("/{id}")
-	                .buildAndExpand(contratAjoute.getContratId()).toUri();
+		// Respond with a URI to the newly created contract
+		URI uri = ServletUriComponentsBuilder.fromCurrentRequest().path("/{id}")
+				.buildAndExpand(contratAjoute.getContratId()).toUri();
 
-	        return ResponseEntity.created(uri).build();
-	    }
+		return ResponseEntity.created(uri).build();
+	}
+
+	@ApiOperation(value = "Affecte un numéro de produit à un contrat existant")
+	@GetMapping(path = "/affecterNumeroProduit")
+	public ResponseEntity<Void> affecterNumeroProduit(@PathVariable Long numeroAssure,
+			@PathVariable Long numeroProduit) {
+		// Fetch the contract by numeroAssure (assuming you have a method to do this)
+		Contrat contrat = contratRepository.findByNumeroAssure(numeroAssure);
+
+		if (contrat != null) {
+			// Assign the product to the existing contract
+			contrat.setNumeroProduit(numeroProduit);
+			contratRepository.save(contrat);
+			return ResponseEntity.ok().build();
+		} else {
+			return ResponseEntity.notFound().build(); // Contract with the given numeroAssure not found
+		}
+	}
 
 	@ApiOperation(value = "Affiche la liste des contrats.")
 	@GetMapping(path = "/listerContrats")
@@ -85,17 +100,17 @@ public class ContratController {
 		}
 	}
 
-	@ApiOperation(value = "Trouve un contrat par numéro d'assuré.")
-	@GetMapping(path = "/trouverContratAssure/{numeroAssure}")
-	public ResponseEntity<?> findContratByNumeroAssure(@PathVariable Long numeroAssure) {
-		try {
-			Iterable<Contrat> produits = contratRepository.findByNumeroAssure(numeroAssure);
-			return ResponseEntity.ok(produits);
-		} catch (ResourceNotFoundException ex) {
-			return ResponseEntity.status(HttpStatus.NOT_FOUND) // Use 404 Not Found status code
-					.body("Produit not found with numeroProduit: " + numeroAssure);
-		}
-	}
+//	@ApiOperation(value = "Trouve un contrat par numéro d'assuré.")
+//	@GetMapping(path = "/trouverContratAssure/{numeroAssure}")
+//	public ResponseEntity<?> findContratByNumeroAssure(@PathVariable Long numeroAssure) {
+//		try {
+//			Iterable<Contrat> produits = contratRepository.findByNumeroAssure(numeroAssure);
+//			return ResponseEntity.ok(produits);
+//		} catch (ResourceNotFoundException ex) {
+//			return ResponseEntity.status(HttpStatus.NOT_FOUND) // Use 404 Not Found status code
+//					.body("Produit not found with numeroProduit: " + numeroAssure);
+//		}
+//	}
 
 	@ApiOperation(value = "Trouve un contrat par numéro de produit.")
 	@GetMapping(path = "/trouverContratProduit/{numeroProduit}")
