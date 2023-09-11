@@ -8,7 +8,6 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -66,9 +65,9 @@ public class ContratController {
 	}
 
 	@ApiOperation(value = "Affecte un numéro de produit à un contrat existant")
-	@GetMapping(path = "/affecterNumeroProduit")
-	public ResponseEntity<Void> affecterNumeroProduit(@PathVariable Long numeroAssure,
-			@PathVariable Long numeroProduit) {
+	@GetMapping(path = "/affecterNumeroProduit/{numeroAssure}/{numeroProduit}")
+	public ResponseEntity<Void> affecterNumeroProduit(@RequestParam Long numeroAssure,
+			@RequestParam Long numeroProduit) {
 		// Fetch the contract by numeroAssure (assuming you have a method to do this)
 		Contrat contrat = contratRepository.findByNumeroAssure(numeroAssure);
 
@@ -100,6 +99,19 @@ public class ContratController {
 		}
 	}
 
+	@ApiOperation(value = "Trouve un contrat par numéro d'assuré.")
+	@GetMapping(path = "/trouverContratAssure/{numeroAssure}")
+	public ResponseEntity<?> findContratByNumeroAssure(@PathVariable Long numeroAssure) {
+		Contrat contrat = contratRepository.findByNumeroAssure(numeroAssure);
+
+		if (contrat != null) {
+			return ResponseEntity.ok(contrat);
+		} else {
+			return ResponseEntity.status(HttpStatus.NOT_FOUND) // Use 404 Not Found status code
+					.body("Contrat not found with numeroAssure: " + numeroAssure);
+		}
+	}
+
 //	@ApiOperation(value = "Trouve un contrat par numéro d'assuré.")
 //	@GetMapping(path = "/trouverContratAssure/{numeroAssure}")
 //	public ResponseEntity<?> findContratByNumeroAssure(@PathVariable Long numeroAssure) {
@@ -114,7 +126,7 @@ public class ContratController {
 
 	@ApiOperation(value = "Trouve un contrat par numéro de produit.")
 	@GetMapping(path = "/trouverContratProduit/{numeroProduit}")
-	public ResponseEntity<?> findContratByNumeroProduit(@PathVariable Long numeroProduit) {
+	public ResponseEntity<?> findByNumeroProduit(@PathVariable Long numeroProduit) {
 		try {
 			Iterable<Contrat> contrats = contratRepository.findByNumeroProduit(numeroProduit);
 			return ResponseEntity.ok(contrats);

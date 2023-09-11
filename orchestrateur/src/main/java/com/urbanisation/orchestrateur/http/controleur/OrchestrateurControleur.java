@@ -81,9 +81,9 @@ public class OrchestrateurControleur {
 		// Use the ContratProxy to make a request to assign the product to the existing
 		// contract
 		ResponseEntity<Void> response = contratProxy.affecterNumeroProduit(numeroAssure, numeroProduit);
-		m.addAttribute("numeroAssure", numeroAssure);
-		m.addAttribute("numeroProduit", numeroProduit);
-		return "contratProduit";
+//		m.addAttribute("numeroAssure", numeroAssure);
+//		m.addAttribute("numeroProduit", numeroProduit);
+		return "finaliser";
 	}
 
 }
