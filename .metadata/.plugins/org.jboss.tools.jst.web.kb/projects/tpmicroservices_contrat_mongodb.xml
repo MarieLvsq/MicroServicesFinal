@@ -19,11 +19,11 @@
    <libraries>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-spring-webmvc-5.2.8.RELEASE.jar/meta-inf/spring-form.tld" project="tpmicroservices_assure"/>
+      path="FileSystems/lib-spring-webmvc-5.2.8.RELEASE.jar/meta-inf/spring-form.tld" project="orchestrateur"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-spring-webmvc-5.2.8.RELEASE.jar/meta-inf/spring.tld" project="tpmicroservices_assure"/>
+      path="FileSystems/lib-spring-webmvc-5.2.8.RELEASE.jar/meta-inf/spring.tld" project="orchestrateur"/>
     </library>
    </libraries>
   </path>
