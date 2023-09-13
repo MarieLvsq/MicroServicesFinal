@@ -12,10 +12,9 @@ public class ApplicationPropertiesConfiguration {
 		return limiteNombreProduit;
 	}
 
-	public void setLimiteNombreAssure(int limiteNombreProduit) {
+	public void setLimiteNombreProduit(int limiteNombreProduit) {
 		this.limiteNombreProduit = limiteNombreProduit;
 	}
 
-	
 	
 }
