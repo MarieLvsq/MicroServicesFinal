@@ -1,10 +1,10 @@
-package com.urbanisationsi.security;
+package com.urbanisationsi.microservicessecurite;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SecurityApplicationTests {
+class MicroservicesSecuriteApplicationTests {
 
 	@Test
 	void contextLoads() {
