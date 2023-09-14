@@ -16,14 +16,14 @@ import com.urbanisation.orchestrateur.DTO.AssureDTO;
  *
  */
 //@FeignClient(name = "msassure", url = "localhost:9999/previt")
-@FeignClient(name = "microservice-assure")
-@RibbonClient(name ="microservice-assure")
+@FeignClient(name = "zuul-server", decode404 = true)
+@RibbonClient(name = "microservice-assure")
 public interface AssureProxy {
 
-	@GetMapping(path = "/previt/assuresNomPrenom/{nom}/{prenom}")
+	@GetMapping(path = "/microservice-assure/previt/assuresNomPrenom/{nom}/{prenom}")
 	public @ResponseBody Iterable<AssureDTO> getAssureNomPrenom(@PathVariable String nom, @PathVariable String prenom);
 
-	@GetMapping(path = "/previt/listerLesAssures")
+	@GetMapping(path = "/microservice-assure/previt/listerLesAssures")
 	public @ResponseBody Iterable<AssureDTO> getAllAssures();
 
 }

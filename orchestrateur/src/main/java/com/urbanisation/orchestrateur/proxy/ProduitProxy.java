@@ -7,10 +7,10 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.urbanisation.orchestrateur.DTO.ProduitDTO;
 
-@FeignClient(name = "microservice-produit")
+@FeignClient(name = "zuul-server", decode404 = true)
 @RibbonClient(name ="microservice-produit")
 public interface ProduitProxy {
 
-	@GetMapping(path = "produits/listerProduits")
+	@GetMapping(path = "/microservice-produit/produits/listerProduits")
 	public @ResponseBody Iterable<ProduitDTO> getAllProduits();
 }

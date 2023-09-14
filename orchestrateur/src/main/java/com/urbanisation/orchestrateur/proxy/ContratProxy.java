@@ -7,13 +7,13 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestParam;
 
-@FeignClient(name = "microservice-contrat")
+@FeignClient(name = "zuul-server", decode404 = true)
 @RibbonClient(name ="microservice-contrat")
 public interface ContratProxy {
 
-	@GetMapping(path = "/ajouterContrat")
+	@GetMapping(path = "/microservice-contrat/ajouterContrat")
 	ResponseEntity<Void> creerContrat(@RequestParam Long numeroAssure);
 
-	@GetMapping(path = "/affecterNumeroProduit")
+	@GetMapping(path = "/microservice-contrat/affecterNumeroProduit")
 	ResponseEntity<Void> affecterNumeroProduit(@RequestParam Long numeroAssure, @RequestParam Long numeroProduit);
 }
