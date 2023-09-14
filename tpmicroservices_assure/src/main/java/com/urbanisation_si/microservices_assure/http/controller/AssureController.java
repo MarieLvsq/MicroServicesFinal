@@ -63,7 +63,7 @@ public class AssureController {
 	}
 
 	@ApiOperation(value = "Recherche un assuré grâce à ses nom puis prenom à condition que celui-ci existe.")
-	@GetMapping(path = "/assuresNomPrenom/{nom}/{prenom}")
+	@GetMapping(path = "/assureNomPrenom/{nom}/{prenom}")
 	public @ResponseBody Iterable<Assure> getAssureNomPrenom(@PathVariable String nom, @PathVariable String prenom) {
 		return assureRepository.findByNomAndPrenom(nom, prenom);
 	}

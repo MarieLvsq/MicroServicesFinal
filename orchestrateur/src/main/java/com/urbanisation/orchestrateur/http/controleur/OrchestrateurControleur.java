@@ -83,7 +83,20 @@ public class OrchestrateurControleur {
 		ResponseEntity<Void> response = contratProxy.affecterNumeroProduit(numeroAssure, numeroProduit);
 //		m.addAttribute("numeroAssure", numeroAssure);
 //		m.addAttribute("numeroProduit", numeroProduit);
+		
+		Iterable<ProduitDTO> produits = produitProxy.getAllProduits();
+		m.addAttribute("produits", produits);
 		return "finaliser";
 	}
+	
+//	// formulaire affecterNumeroProduit
+//		@GetMapping(value = "/affecterNumeroProduit/{numeroAssure}/{numeroProduit}")
+//		public String affecterNumeroProduit(@PathVariable Long numeroAssure, @PathVariable Long numeroProduit, Model m) {
+//			ContratDTO contratDTO =new ContratDTO();
+//			m.addAttribute("contratAssure", contratDTO);
+//			m.addAttribute("NumeroAssure", numeroAssure);
+//			m.addAttribute("numeroProduit", numeroProduit);
+//			return "finaliser";
+//		}
 
 }

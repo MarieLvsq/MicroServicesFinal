@@ -11,9 +11,9 @@ import org.springframework.web.bind.annotation.RequestParam;
 @RibbonClient(name ="microservice-contrat")
 public interface ContratProxy {
 
-	@GetMapping(path = "/microservice-contrat/ajouterContrat")
+	@GetMapping(path = "/microservice-contrat/contrats/ajouterContrat")
 	ResponseEntity<Void> creerContrat(@RequestParam Long numeroAssure);
 
-	@GetMapping(path = "/microservice-contrat/affecterNumeroProduit")
+	@GetMapping(path = "/microservice-contrat/contrats/affecterNumeroProduit")
 	ResponseEntity<Void> affecterNumeroProduit(@RequestParam Long numeroAssure, @RequestParam Long numeroProduit);
 }
