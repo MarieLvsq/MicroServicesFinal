@@ -48,7 +48,7 @@ public class SecuriteWebConfiguration extends WebSecurityConfigurerAdapter {
                 .antMatchers("/afficher/**").hasAuthority("ADMIN").anyRequest()
                 .authenticated().and().csrf().disable().formLogin().successHandler(connexionAuthenticationSuccessHandler)
                 .loginPage("/connecter").failureUrl("/connecter?error=true")
-                .usernameParameter("mail")
+                .usernameParameter("email")
                 .passwordParameter("motdepasse")
                 .and().logout()
                 .logoutRequestMatcher(new AntPathRequestMatcher("/deconnecter"))

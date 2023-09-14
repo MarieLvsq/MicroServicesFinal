@@ -33,11 +33,12 @@ public class GestionnairePrevoyanceService implements UserDetailsService {
 	@Autowired
 	RoleRepository roleRepository;
 
-	public GestionnairePrevoyance findByEmail(String email) {
-		return gestionnairePrevRepo.findByEmail(email);
+	public GestionnairePrevoyance findByEmail(String mail) {
+		return gestionnairePrevRepo.findByEmail(mail);
 	}
 
 	public void sauveGestionnairePrevoyance(GestionnairePrevoyance gestionnairePrevoyance) {
+	    System.out.println("User data to save: " + gestionnairePrevoyance.toString());
 		gestionnairePrevoyance.setMotdepasse(bCryptPasswordEncoder.encode(gestionnairePrevoyance.getMotdepasse()));
 		gestionnairePrevoyance.setActive(true);
 		Role gestionnairePrevoyanceRole = roleRepository.findByRole("ADMIN");
